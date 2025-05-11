@@ -4,7 +4,7 @@
 
 import { useRouter } from "next/navigation";
 import Image from "next/image";
-import Logo from "@/assets/logo.svg";
+import Logo from "../src/assets/logo.svg";
 
 export default function Home() {
   const router = useRouter();
